@@ -1,9 +1,9 @@
 cask "rfm" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.4.2"
-  sha256 arm:   "e2848f559d504bcb3886f38867bf068bc0b36de4601307707a26fbbb59c213c0",
-         intel: "871787ff9ca34004f7100dc658f9c8bb3b052403a8b56d267a8ff94e36235a70"
+  version "0.4.3"
+  sha256 arm:   "95e35ea86a30302fce2fa5e03342bf4020c713e886f11c02af44ce904a6afeff",
+         intel: "298ba1194b73185ce3366d95d6237d9fe9ede186398b0673dceb5dc7e97509ca"
 
   url "https://github.com/senecal-jjs/rust-file-mirror/releases/download/v#{version}/rfm-v#{version}-#{arch}-apple-darwin.tar.gz"
   name "rfm"
