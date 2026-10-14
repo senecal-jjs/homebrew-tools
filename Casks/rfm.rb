@@ -1,6 +1,6 @@
 cask "rfm" do
-  version "0.8.0"
-  sha256 "485a37bfb7ecfab9ba75e647b3660302a36e0e9e13fd54e369f57d689e16d79e"
+  version "0.8.1"
+  sha256 "b13c41d48db06a01ee919833eaa5844d5c040fc70f9d0372a53f45f042e37514"
 
   url "https://github.com/senecal-jjs/rust-file-mirror/releases/download/v#{version}/rfm-v#{version}-aarch64-apple-darwin.tar.gz"
   name "rfm"
