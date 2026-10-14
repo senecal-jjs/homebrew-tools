@@ -1,14 +1,13 @@
 cask "rfm" do
-  arch arm: "aarch64", intel: "x86_64"
+  version "0.8.0"
+  sha256 "485a37bfb7ecfab9ba75e647b3660302a36e0e9e13fd54e369f57d689e16d79e"
 
-  version "0.7.1"
-  sha256 arm:   "bd714d2c0bf5bc1fe3837f8e22edec39cde82f1040c15ca8122b8594480ea3cb",
-         intel: "a5a7a1607cccb14946832d4d0a8799d4a5861c82385e85c6837235102279d466"
-
-  url "https://github.com/senecal-jjs/rust-file-mirror/releases/download/v#{version}/rfm-v#{version}-#{arch}-apple-darwin.tar.gz"
+  url "https://github.com/senecal-jjs/rust-file-mirror/releases/download/v#{version}/rfm-v#{version}-aarch64-apple-darwin.tar.gz"
   name "rfm"
   desc "Encrypted, client-side S3 file mirror CLI and daemon"
   homepage "https://github.com/senecal-jjs/rust-file-mirror"
+
+  depends_on arch: :arm64
 
   binary "rfm"
   binary "rfm-tray"
